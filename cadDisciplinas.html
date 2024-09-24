@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de disciplinas</title>
+</head>
+<body>
+
+<form action="" method="post"><h1>Cadastro de disciplinas</h1>
+<div>
+    <label for="nomeD">Informe o nome:</label>
+<input type="text" name="nomeD" id="nomeD" required>
+</div>
+<div>
+    <label for="creditos">Créditos</label>
+    <input type="number" name="creditos" id="creditos" required>
+</div>
+<div>
+    <label for="tipoD">Tipo da disciplina:</label>
+    <input type="radio" name="tipoD" value="normais">Normais
+    <input type="radio" name="tipoD" value="estagio">Estágio
+</div>
+<div>
+    <label for="faltas">Limite de faltas</label>
+    <input type="number" name="faltas" id="faltas">
+</div>
+<div>
+    <label for="horasOb">Horas Obrigatórias</label>
+    <input type="number" name="horasOb" id="horasOb">
+</div>
+<div>
+    <label for="cursos">Cursos:</label>
+    <select name="cursos">
+        <option value="ads" selected>Análise e Desenvolvimento de Sistemas</option>
+        <option value="redes">Redes de Computadores</option>
+        <option value="direito">Direito </option>
+      </select>
+</div>
+<div>
+    <button type="submit" >Cadastrar </button>
+</div>
+</form>
+</body>
+</html>
